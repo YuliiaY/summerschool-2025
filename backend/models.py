@@ -1,9 +1,9 @@
 from pydantic import BaseModel, Field
 
 
-class TaskRequest(BaseModel):
+class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, description="User input text")
 
 
-class TaskResponse(BaseModel):
+class ChatResponse(BaseModel):
     reply: str
