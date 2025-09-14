@@ -5,8 +5,9 @@ st.set_page_config(page_title="Summerschool 2025", page_icon="🎓")
 st.title("Summerschool 2025 — Labs UI")
 
 st.markdown("""
-- Day 1 and Day 2 use a simple single-message input via `st.chat_input`.
-- Days 3–5 use a full chat interface with `st.chat_message` + `st.chat_input`.
+Welcome to Day 1 of the Summerschool 2025 Labs!
 
-Use the sidebar to switch between pages (files under `ui/pages/`).
+- Day 1 uses a simple single-message input via `st.chat_input`.
+
+Navigate to the Day 1 page using the sidebar to begin the exercises.
 """)
