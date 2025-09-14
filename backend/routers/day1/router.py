@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from ..models import EchoRequest, EchoResponse
+from ...models import EchoRequest, EchoResponse
 
-router = APIRouter(prefix="/api/day1", tags=["day1"]) 
+router = APIRouter(prefix="/api/day1", tags=["day1"])
 
 
 @router.post("/echo", response_model=EchoResponse)

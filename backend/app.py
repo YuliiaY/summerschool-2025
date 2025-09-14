@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-from .routers import day1
+from .routers.day1 import router as day1_router
 
 app = FastAPI(title="summerschool-2025 API", version="0.1.0")
 
-app.include_router(day1.router)
+app.include_router(day1_router)
 
 
 @app.get("/healthz")
