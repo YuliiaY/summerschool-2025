@@ -1,12 +1,12 @@
 from fastapi import APIRouter
-from ...models import TaskRequest, TaskResponse
+from ...models import ChatRequest, ChatResponse
 
 router = APIRouter(prefix="/api/day4", tags=["day4"])
 
 
-@router.post("/chat", response_model=TaskResponse)
-def chat(request: TaskRequest) -> TaskResponse:
-    return TaskResponse(reply=f"Chat (day 4): {request.message}")
+@router.post("/chat", response_model=ChatResponse)
+def chat(request: ChatRequest) -> ChatResponse:
+    return ChatResponse(reply=f"Chat (day 4): {request.message}")
 
 
 @router.get("/health")
