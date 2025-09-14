@@ -11,6 +11,7 @@
 ---
 
 ## 🚀 Deine Aufgaben
+Hinweis: Erstelle für jede Aufgabe einen eigenen REST Endpunkt und passe im Frontend den aufruf an.
 
 ### Core Task 1: Multilingualer Filmkritiker
 
