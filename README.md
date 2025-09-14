@@ -29,7 +29,7 @@ BACKEND_URL=http://localhost:8000 uv run streamlit run ui/Home.py \
 
 ## Structure
 
--   `backend/`: FastAPI app with routers for each day: `/api/day{1..5}/...`
+-   `backend/`: FastAPI app with routers for each day: `/routers/day{1..5}/...`
 -   `ui/`: Streamlit multipage app with `Home.py` and page files in `ui/pages/`
     -   Day 1–2: Use a simple single-message input.
     -   Day 3–5: Use a full chat interface.
