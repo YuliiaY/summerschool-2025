@@ -1,9 +1,3 @@
-Of course\! I can certainly help you refine these lab instructions. My goal is to make them clearer, add the requested information, and highlight potential pitfalls to guide your students more effectively.
-
-Here is the revised version of your lab instructions.
-
------
-
 # Day 3: Practical RAG Lab
 
 ## 🎯 What You Will Build
