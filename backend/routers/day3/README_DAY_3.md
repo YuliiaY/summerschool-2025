@@ -117,9 +117,9 @@ Finally, you'll evaluate your RAG pipeline automatically using another LLM.
 ## Usable embedding models
 | Model Name                  | MTEB Score* | Size          | Year/Status           | Hugging Face Repo                                                   |
 |-----------------------------|-------------|---------------|-----------------------|---------------------------------------------------------------------|
-| EmbeddingGemma              | 68.2        | 308M params   | 2025 / Released       | https://huggingface.co/google/embedding-gemma-1.1-embedding         |
-| jina-embeddings-v3          | 65.5        | 570M params   | 2025 / Released       | https://huggingface.co/jinaai/jina-embeddings-v3-base               |
-| Nomic Embed Text V2         | ~61–63      | —             | 2024 / Released       | https://huggingface.co/nomic-ai/nomic-embed-text-v2                 |
+| EmbeddingGemma              | 68.2        | 308M params   | 2025 / Released       | hhttps://huggingface.co/blog/embeddinggemma         |
+| jina-embeddings-v3          | 65.5        | 570M params   | 2025 / Released       | https://huggingface.co/jinaai/jina-embeddings-v3               |
+| Nomic Embed Text V2         | ~61–63      | —             | 2024 / Released       | https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe                 |
 | BAAI bge-m3                 | ~60–61      | 660M params   | 2024 / Released       | https://huggingface.co/BAAI/bge-m3                                  |
 | Alibaba GTE-multilingual    | ~64–66      | 305M params   | 2024 / Released       | https://huggingface.co/Alibaba-NLP/gte-multilingual-base            |
 | MiniLM Multilingual         | ~55–59      | 22–80M params | 2022+/Still used      | https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 |
