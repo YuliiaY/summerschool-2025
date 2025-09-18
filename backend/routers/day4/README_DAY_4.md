@@ -20,7 +20,7 @@ Gestern habt ihr ein Basis-RAG-System erstellt. Heute werden wir fortgeschritten
 Zuerst müsst ihr die Leistung eurer bestehenden Pipeline von Tag 3 messen. Dazu erstellt ihr eine Evaluationsdatei und führt das bereitgestellte Skript `evaluate.py` aus.
 
 1. **Testdaten verarbeiten:** Ladet die `test_data.json`. Lasst eure RAG-Pipeline für jede Frage in dieser Datei eine Antwort generieren.
-2. **Ergebnisdatei erstellen:** Erstellt eine neue JSON-Datei, die eine Liste von Objekten enthält. Jedes Objekt soll exakt die Inhalte der ursprünglichen Testdaten haben (`query`, `answer`, `page`) und zusätzlich einen neuen Schlüssel `"result"` enthalten, der die von eurer Pipeline generierte Antwort speichert.
+2. **Ergebnisdatei erstellen:** Erstellt eine neue JSON-Datei, die eine Liste von Objekten enthält. Jedes Objekt soll exakt die Inhalte der ursprünglichen Testdaten haben (`query`, `answer`, `page`) und zusätzlich einen neuen key `"result"` enthalten, der die von eurer Pipeline generierte Antwort speichert.
 3. **Datei speichern:** Speichert diese neue Liste als `evaluation_data.json` im `data/`-Ordner eures Projekts.
     * **Hinweis für Windows-Nutzer:** Falls es zu Pfad-Problemen kommt, legt die `evaluation_data.json` zur Vereinfachung in dasselbe Verzeichnis wie das `evaluate.py`-Skript.
 4. **Baseline evaluieren:** Führt das Skript `evaluate.py` aus, um eure Baseline-Genauigkeit zu ermitteln. Notiert euch diesen Wert.
